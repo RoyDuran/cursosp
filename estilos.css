@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9273e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilos para la tabla */
+.tabla-cursos {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.tabla-cursos th, 
+.tabla-cursos td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-cursos th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.tabla-cursos tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabla-cursos tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Mensaje de error */
+.mensaje-error {
+    color: #d9534f;
+    font-weight: bold;
+}
